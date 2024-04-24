@@ -1,0 +1,67 @@
+/* Estilos para la tabla */
+.form-table {
+   width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-table caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.form-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.form-table td {
+    padding: 8px;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el botón de enviar */
+button[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #286090;
+}
+
+/* Estilos para el enlace de retroceso */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #000;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+a:hover {
+    background-color: aquamarine;
+}

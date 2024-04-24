@@ -1,0 +1,63 @@
+/* Estilos para el formulario */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Estilos para las etiquetas */
+label {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 5px;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"] {
+    flex-basis: calc(50% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el botón de enviar */
+button[type="submit"] {
+    flex-basis: 100%;
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: green;
+}
+
+/* Estilos para el enlace de retroceso */
+a {
+    flex-basis: 100%;
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: aquamarine;
+}
